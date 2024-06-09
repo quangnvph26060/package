@@ -17,4 +17,7 @@ class password {
     }
 }
 
-
+/**
+ * chức năng lấy lại mật khẩu
+ * random mật khẩu mới 
+ */
