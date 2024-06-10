@@ -1,0 +1,1102 @@
+{
+  "RECORDS": [
+    {
+      "id": 1,
+      "country": "Cabo Verde",
+      "nationality": "Cape Verdian",
+      "phone_iso_code": "CV",
+      "phone_country_code": 238,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 2,
+      "country": "Turkey",
+      "nationality": "Turkish",
+      "phone_iso_code": "TR",
+      "phone_country_code": 90,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 3,
+      "country": "Zimbabwe",
+      "nationality": "Zimbabwean",
+      "phone_iso_code": "ZW",
+      "phone_country_code": 263,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 4,
+      "country": "Algeria",
+      "nationality": "Algerian",
+      "phone_iso_code": "DZ",
+      "phone_country_code": 213,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 5,
+      "country": "Niger",
+      "nationality": "Nigerien",
+      "phone_iso_code": "NE",
+      "phone_country_code": 227,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 6,
+      "country": "Hungary",
+      "nationality": "Hungarian",
+      "phone_iso_code": "HU",
+      "phone_country_code": 36,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 7,
+      "country": "Spain",
+      "nationality": "Spanish",
+      "phone_iso_code": "ES",
+      "phone_country_code": 34,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 8,
+      "country": "Germany",
+      "nationality": "German",
+      "phone_iso_code": "DE",
+      "phone_country_code": 49,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 9,
+      "country": "Guatemala",
+      "nationality": "Guatemalan",
+      "phone_iso_code": "GT",
+      "phone_country_code": 502,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 10,
+      "country": "Mozambique",
+      "nationality": "Mozambican",
+      "phone_iso_code": "MZ",
+      "phone_country_code": 258,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 11,
+      "country": "Palau",
+      "nationality": "Palauan",
+      "phone_iso_code": "PW",
+      "phone_country_code": 680,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 12,
+      "country": "Lesotho",
+      "nationality": "Mosotho",
+      "phone_iso_code": "LS",
+      "phone_country_code": 266,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 13,
+      "country": "Marshall Islands",
+      "nationality": "Marshallese",
+      "phone_iso_code": "MH",
+      "phone_country_code": 692,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 14,
+      "country": "Suriname",
+      "nationality": "Surinamer",
+      "phone_iso_code": "SR",
+      "phone_country_code": 597,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 15,
+      "country": "Guyana",
+      "nationality": "Guyanese",
+      "phone_iso_code": "GY",
+      "phone_country_code": 592,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 16,
+      "country": "Sri Lanka",
+      "nationality": "Sri Lankan",
+      "phone_iso_code": "LK",
+      "phone_country_code": 94,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 17,
+      "country": "Lebanon",
+      "nationality": "Lebanese",
+      "phone_iso_code": "LB",
+      "phone_country_code": 961,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 18,
+      "country": "Mayotte",
+      "nationality": "Mahoran",
+      "phone_iso_code": "YT",
+      "phone_country_code": 262,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 19,
+      "country": "Samoa",
+      "nationality": "Samoan",
+      "phone_iso_code": "WS",
+      "phone_country_code": 685,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 20,
+      "country": "Solomon Islands",
+      "nationality": "Solomon Islander",
+      "phone_iso_code": "SB",
+      "phone_country_code": 677,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 21,
+      "country": "Denmark",
+      "nationality": "Danish",
+      "phone_iso_code": "DK",
+      "phone_country_code": 45,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 22,
+      "country": "Kiribati",
+      "nationality": "I-Kiribati",
+      "phone_iso_code": "KI",
+      "phone_country_code": 686,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 23,
+      "country": "Switzerland",
+      "nationality": "Swiss",
+      "phone_iso_code": "CH",
+      "phone_country_code": 41,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 24,
+      "country": "Lithuania",
+      "nationality": "Lithuanian",
+      "phone_iso_code": "LT",
+      "phone_country_code": 370,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 25,
+      "country": "Somalia",
+      "nationality": "Somali",
+      "phone_iso_code": "SO",
+      "phone_country_code": 252,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:21"
+    },
+    {
+      "id": 26,
+      "country": "Norfolk Island",
+      "nationality": "Norfolk Islander",
+      "phone_iso_code": "NF",
+      "phone_country_code": 0,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 27,
+      "country": "Taiwan",
+      "nationality": "Taiwanese",
+      "phone_iso_code": null,
+      "phone_country_code": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 28,
+      "country": "Ghana",
+      "nationality": "Ghanaian",
+      "phone_iso_code": "GH",
+      "phone_country_code": 233,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 29,
+      "country": "New Zealand",
+      "nationality": "New Zealander",
+      "phone_iso_code": "NZ",
+      "phone_country_code": 64,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 30,
+      "country": "Senegal",
+      "nationality": "Senegalese",
+      "phone_iso_code": "SN",
+      "phone_country_code": 221,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 31,
+      "country": "Togo",
+      "nationality": "Togolese",
+      "phone_iso_code": "TG",
+      "phone_country_code": 228,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 32,
+      "country": "Zambia",
+      "nationality": "Zambian",
+      "phone_iso_code": "ZM",
+      "phone_country_code": 260,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 33,
+      "country": "Belarus",
+      "nationality": "Belarusian",
+      "phone_iso_code": "BY",
+      "phone_country_code": 375,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 34,
+      "country": "Saint Vincent and the Grenadines",
+      "nationality": "Saint Vincentian",
+      "phone_iso_code": "VC",
+      "phone_country_code": 1,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 35,
+      "country": "El Salvador",
+      "nationality": "Salvadoran",
+      "phone_iso_code": "SV",
+      "phone_country_code": 503,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 36,
+      "country": "Norway",
+      "nationality": "Norwegian",
+      "phone_iso_code": "NO",
+      "phone_country_code": 47,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 37,
+      "country": "Malta",
+      "nationality": "Maltese",
+      "phone_iso_code": "MT",
+      "phone_country_code": 356,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 38,
+      "country": "Nicaragua",
+      "nationality": "Nicaraguan",
+      "phone_iso_code": "NI",
+      "phone_country_code": 505,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 39,
+      "country": "Australia",
+      "nationality": "Australian",
+      "phone_iso_code": "AU",
+      "phone_country_code": 61,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 40,
+      "country": "Luxembourg",
+      "nationality": "Luxembourger",
+      "phone_iso_code": "LU",
+      "phone_country_code": 352,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 41,
+      "country": "Pakistan",
+      "nationality": "Pakistani",
+      "phone_iso_code": "PK",
+      "phone_country_code": 92,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 42,
+      "country": "Saint Helena, Ascension and Tristan da Cunha",
+      "nationality": "Saint Helenian",
+      "phone_iso_code": "SH",
+      "phone_country_code": 290,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 43,
+      "country": "Turks and Caicos Islands",
+      "nationality": "Turks and Caicos Islander",
+      "phone_iso_code": "TC",
+      "phone_country_code": 1,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 44,
+      "country": "Western Sahara",
+      "nationality": "Sahrawi",
+      "phone_iso_code": "EH",
+      "phone_country_code": 212,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 45,
+      "country": "Belgium",
+      "nationality": "Belgian",
+      "phone_iso_code": "BE",
+      "phone_country_code": 32,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 46,
+      "country": "Eritrea",
+      "nationality": "Eritrean",
+      "phone_iso_code": "ER",
+      "phone_country_code": 291,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 47,
+      "country": "Seychelles",
+      "nationality": "Seychellois",
+      "phone_iso_code": "SC",
+      "phone_country_code": 248,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 48,
+      "country": "Antigua and Barbuda",
+      "nationality": "Antiguan, Barbudan",
+      "phone_iso_code": "AG",
+      "phone_country_code": 1,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 49,
+      "country": "Liberia",
+      "nationality": "Liberian",
+      "phone_iso_code": "LR",
+      "phone_country_code": 231,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 50,
+      "country": "Tuvalu",
+      "nationality": "Tuvaluan",
+      "phone_iso_code": "TV",
+      "phone_country_code": 688,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 51,
+      "country": "Bermuda",
+      "nationality": "Bermudian",
+      "phone_iso_code": "BM",
+      "phone_country_code": 1,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 52,
+      "country": "Cameroon",
+      "nationality": "Cameroonian",
+      "phone_iso_code": "CM",
+      "phone_country_code": 237,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:54"
+    },
+    {
+      "id": 53,
+      "country": "Saint Pierre and Miquelon",
+      "nationality": "Saint-Pierrais",
+      "phone_iso_code": "PM",
+      "phone_country_code": 508,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 54,
+      "country": "Ukraine",
+      "nationality": "Ukrainian",
+      "phone_iso_code": "UA",
+      "phone_country_code": 380,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 55,
+      "country": "Georgia",
+      "nationality": "Georgian",
+      "phone_iso_code": "GE",
+      "phone_country_code": 995,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 56,
+      "country": "Netherlands",
+      "nationality": "Dutch",
+      "phone_iso_code": "NL",
+      "phone_country_code": 31,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 57,
+      "country": "Mali",
+      "nationality": "Malian",
+      "phone_iso_code": "ML",
+      "phone_country_code": 223,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 58,
+      "country": "Niue",
+      "nationality": "Niuean",
+      "phone_iso_code": "NU",
+      "phone_country_code": 683,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 59,
+      "country": "Puerto Rico",
+      "nationality": "Puerto Rican",
+      "phone_iso_code": "PR",
+      "phone_country_code": 1,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 60,
+      "country": "United Kingdom of Great Britain and Northern Ireland",
+      "nationality": "British",
+      "phone_iso_code": "GB",
+      "phone_country_code": 44,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 61,
+      "country": "Armenia",
+      "nationality": "Armenian",
+      "phone_iso_code": "AM",
+      "phone_country_code": 374,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 62,
+      "country": "Greenland",
+      "nationality": "Greenlandic",
+      "phone_iso_code": "GL",
+      "phone_country_code": 299,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 63,
+      "country": "Kazakhstan",
+      "nationality": "Kazakhstani",
+      "phone_iso_code": "KZ",
+      "phone_country_code": 7,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 64,
+      "country": "Réunion",
+      "nationality": "Réunionese",
+      "phone_iso_code": "RE",
+      "phone_country_code": 262,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 65,
+      "country": "Saint Martin (French part)",
+      "nationality": "Saint Martin Islander",
+      "phone_iso_code": "MF",
+      "phone_country_code": 590,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 66,
+      "country": "Belize",
+      "nationality": "Belizean",
+      "phone_iso_code": "BZ",
+      "phone_country_code": 501,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 67,
+      "country": "Greece",
+      "nationality": "Greek",
+      "phone_iso_code": "GR",
+      "phone_country_code": 30,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 68,
+      "country": "Trinidad and Tobago",
+      "nationality": "Trinidadian",
+      "phone_iso_code": "TT",
+      "phone_country_code": 1,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 69,
+      "country": "Benin",
+      "nationality": "Beninese",
+      "phone_iso_code": "BJ",
+      "phone_country_code": 229,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 70,
+      "country": "Tajikistan",
+      "nationality": "Tadzhik",
+      "phone_iso_code": "TJ",
+      "phone_country_code": 992,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 71,
+      "country": "Czech Republic",
+      "nationality": "Czech",
+      "phone_iso_code": "CZ",
+      "phone_country_code": 420,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 72,
+      "country": "India",
+      "nationality": "Indian",
+      "phone_iso_code": "IN",
+      "phone_country_code": 91,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 73,
+      "country": "Lao People's Democratic Republic",
+      "nationality": "Laotian",
+      "phone_iso_code": "LA",
+      "phone_country_code": 856,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 74,
+      "country": "Syrian Arab Republic",
+      "nationality": "Syrian",
+      "phone_iso_code": "SY",
+      "phone_country_code": 963,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 75,
+      "country": "Turkmenistan",
+      "nationality": "Turkmen",
+      "phone_iso_code": "TM",
+      "phone_country_code": 993,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 76,
+      "country": "Botswana",
+      "nationality": "Motswana",
+      "phone_iso_code": "BW",
+      "phone_country_code": 267,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 77,
+      "country": "Virgin Islands (British)",
+      "nationality": "Virgin Islander (British)",
+      "phone_iso_code": "VG",
+      "phone_country_code": 1,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 78,
+      "country": "American Samoa",
+      "nationality": "American Samoan",
+      "phone_iso_code": "AS",
+      "phone_country_code": 1,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 79,
+      "country": "Guadeloupe",
+      "nationality": "Guadeloupian",
+      "phone_iso_code": "GP",
+      "phone_country_code": 0,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 80,
+      "country": "New Caledonia",
+      "nationality": "New Caledonian",
+      "phone_iso_code": "NC",
+      "phone_country_code": 687,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 81,
+      "country": "Việt Nam",
+      "nationality": "Việt Nam",
+      "phone_iso_code": "VN",
+      "phone_country_code": 84,
+      "created_at": null,
+      "updated_at": "1/11/2022 09:43:57"
+    },
+    {
+      "id": 82,
+      "country": "Comoros",
+      "nationality": "Comoran",
+      "phone_iso_code": "KM",
+      "phone_country_code": 269,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 83,
+      "country": "Micronesia (Federated States of)",
+      "nationality": "Micronesian",
+      "phone_iso_code": "FM",
+      "phone_country_code": 691,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 84,
+      "country": "Burundi",
+      "nationality": "Burundian",
+      "phone_iso_code": "BI",
+      "phone_country_code": 257,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 85,
+      "country": "Morocco",
+      "nationality": "Moroccan",
+      "phone_iso_code": "MA",
+      "phone_country_code": 212,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 86,
+      "country": "Saint Barthélemy",
+      "nationality": "Saint Barthélemy Islander",
+      "phone_iso_code": "BL",
+      "phone_country_code": 590,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 87,
+      "country": "Barbados",
+      "nationality": "Barbadian",
+      "phone_iso_code": "BB",
+      "phone_country_code": 1,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 88,
+      "country": "Virgin Islands (U.S.)",
+      "nationality": "Virgin Islander (U.S.)",
+      "phone_iso_code": "VI",
+      "phone_country_code": 1,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 89,
+      "country": "Iraq",
+      "nationality": "Iraqi",
+      "phone_iso_code": "IQ",
+      "phone_country_code": 964,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 90,
+      "country": "Papua New Guinea",
+      "nationality": "Papua New Guinean",
+      "phone_iso_code": "PG",
+      "phone_country_code": 675,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 91,
+      "country": "Equatorial Guinea",
+      "nationality": "Equatorial Guinean",
+      "phone_iso_code": "GQ",
+      "phone_country_code": 240,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 92,
+      "country": "Gabon",
+      "nationality": "Gabonese",
+      "phone_iso_code": "GA",
+      "phone_country_code": 241,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 93,
+      "country": "Uruguay",
+      "nationality": "Uruguayan",
+      "phone_iso_code": "UY",
+      "phone_country_code": 598,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 94,
+      "country": "Monaco",
+      "nationality": "Monegasque",
+      "phone_iso_code": "MC",
+      "phone_country_code": 377,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 95,
+      "country": "Tunisia",
+      "nationality": "Tunisian",
+      "phone_iso_code": "TN",
+      "phone_country_code": 216,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 96,
+      "country": "Fiji",
+      "nationality": "Fijian",
+      "phone_iso_code": "FJ",
+      "phone_country_code": 679,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 97,
+      "country": "Rwanda",
+      "nationality": "Rwandan",
+      "phone_iso_code": "RW",
+      "phone_country_code": 250,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 98,
+      "country": "Angola",
+      "nationality": "Angolan",
+      "phone_iso_code": "AO",
+      "phone_country_code": 244,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 99,
+      "country": "Falkland Islands (Malvinas)",
+      "nationality": "Falkland Islander",
+      "phone_iso_code": "FK",
+      "phone_country_code": 500,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 100,
+      "country": "Serbia",
+      "nationality": "Serbian",
+      "phone_iso_code": "RS",
+      "phone_country_code": 381,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 101,
+      "country": "Slovenia",
+      "nationality": "Slovenian",
+      "phone_iso_code": "SI",
+      "phone_country_code": 386,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 102,
+      "country": "Congo (Democratic Republic of the)",
+      "nationality": "Congolese (Democratic Republic)",
+      "phone_iso_code": "CD",
+      "phone_country_code": 243,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 103,
+      "country": "Malawi",
+      "nationality": "Malawian",
+      "phone_iso_code": "MW",
+      "phone_country_code": 265,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 104,
+      "country": "Venezuela (Bolivarian Republic of)",
+      "nationality": "Venezuelan",
+      "phone_iso_code": "VE",
+      "phone_country_code": 58,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 105,
+      "country": "Bulgaria",
+      "nationality": "Bulgarian",
+      "phone_iso_code": "BG",
+      "phone_country_code": 359,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 106,
+      "country": "Hong Kong",
+      "nationality": "Hong Kongese",
+      "phone_iso_code": "HK",
+      "phone_country_code": 852,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 107,
+      "country": "Gibraltar",
+      "nationality": "Gibraltar",
+      "phone_iso_code": "GI",
+      "phone_country_code": 350,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 108,
+      "country": "South Sudan",
+      "nationality": "South Sudanese",
+      "phone_iso_code": "SS",
+      "phone_country_code": 211,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 109,
+      "country": "Nauru",
+      "nationality": "Nauruan",
+      "phone_iso_code": "NR",
+      "phone_country_code": 674,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 110,
+      "country": "Pitcairn",
+      "nationality": "Pitcairn Islander",
+      "phone_iso_code": "PN",
+      "phone_country_code": 64,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 111,
+      "country": "Russian Federation",
+      "nationality": "Russian",
+      "phone_iso_code": "RU",
+      "phone_country_code": 7,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 112,
+      "country": "Andorra",
+      "nationality": "Andorran",
+      "phone_iso_code": "AD",
+      "phone_country_code": 376,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 113,
+      "country": "Faroe Islands",
+      "nationality": "Faroese",
+      "phone_iso_code": "FO",
+      "phone_country_code": 298,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 114,
+      "country": "Congo",
+      "nationality": "Congolese",
+      "phone_iso_code": null,
+      "phone_country_code": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 115,
+      "country": "Croatia",
+      "nationality": "Croatian",
+      "phone_iso_code": "HR",
+      "phone_country_code": 385,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 116,
+      "country": "Montserrat",
+      "nationality": "Montserratian",
+      "phone_iso_code": "MS",
+      "phone_country_code": 1,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 117,
+      "country": "Philippines",
+      "nationality": "Filipino",
+      "phone_iso_code": "PH",
+      "phone_country_code": 63,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 118,
+      "country": "Republic of Kosovo",
+      "nationality": "Kosovar",
+      "phone_iso_code": null,
+      "phone_country_code": null,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 119,
+      "country": "Romania",
+      "nationality": "Romanian",
+      "phone_iso_code": "RO",
+      "phone_country_code": 40,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 120,
+      "country": "Tokelau",
+      "nationality": "Tokelauan",
+      "phone_iso_code": "TK",
+      "phone_country_code": 690,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 121,
+      "country": "Bahamas",
+      "nationality": "Bahamian",
+      "phone_iso_code": "BS",
+      "phone_country_code": 1,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    },
+    {
+      "id": 122,
+      "country": "Estonia",
+      "nationality": "Estonian",
+      "phone_iso_code": "EE",
+      "phone_country_code": 372,
+      "created_at": null,
+      "updated_at": "28/2/2023 13:41:55"
+    }
+  ]
+}
