@@ -1,4 +1,4 @@
-<form action="" method="post" class="changePasswordFields" id="changePasswordFields" style="display: none;">
+<form action="{{route('password')}}" method="post" class="changePasswordFields" id="changePasswordFields" style="display: none;">
     <div>
         {{$admin->id}}
         <div class="form-group row mt-2">
