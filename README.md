@@ -25,4 +25,9 @@ import vào Provides/AppServiceProvider.php
         View::composer('*', UserComposer::class);
     }
     
+6. server 
+1.config apache
 
+2.config nginx
+
+3.Khởi động lại dịch vụ

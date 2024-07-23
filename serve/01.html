@@ -2,15 +2,12 @@ composer dump-autoload: nếu trên serve không nhận các function ở app/he
 
 
 
-sudo nginx -t 
-sudo systemctl relaod nginx 
-restart lại nginx bằng 2 lệnh 
 
-sudo systemctl restart httpd : restart lại apache
 
 
 
 Lỗi CORS:
+config apache
 serve apache 
 apache con be 
 <VirtualHost *:8080>
@@ -66,6 +63,87 @@ apache con fe
   #  ErrorLog ${APACHE_LOG_DIR}/default_error.log
   #  CustomLog ${APACHE_LOG_DIR}/default_access.log combined
 </VirtualHost>
+
+
+
+
+config nginx
+be:
+server {
+    listen 3031;
+    server_name 123.31.31.39 ;
+
+    root /usr/share/nginx/html/chothuevanphong/back_end/qtland_backend/public;
+    index index.php index.html index.htm;
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    location ~ \.php$ {
+        include fastcgi_params;
+        fastcgi_pass unix:/var/opt/remi/php83/run/php-fpm/www.sock;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    }
+
+    error_page 404 /index.php;
+}
+
+fe:
+server {
+    listen 3030;
+    server_name 123.31.31.39;
+
+    root /usr/share/nginx/html/chothuevanphong/qtland_fontend/dist;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+        
+        # Add CORS headers
+        add_header 'Access-Control-Allow-Origin' '*' always;
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS' always;
+        add_header 'Access-Control-Allow-Headers' 'Origin, Content-Type, Accept, Authorization' always;
+    }
+
+    location /api {
+        # Add CORS headers for API requests
+        add_header 'Access-Control-Allow-Origin' '*' always;
+        add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS' always;
+        add_header 'Access-Control-Allow-Headers' 'Origin, Content-Type, Accept, Authorization' always;
+        
+        if ($request_method = 'OPTIONS') {
+            add_header 'Access-Control-Allow-Origin' '*';
+            add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';
+            add_header 'Access-Control-Allow-Headers' 'Origin, Content-Type, Accept, Authorization';
+            add_header 'Access-Control-Max-Age' 1728000;
+            add_header 'Content-Type' 'text/plain charset=UTF-8';
+            add_header 'Content-Length' 0;
+            return 204;
+        }
+    }
+
+    error_page 404 /index.html;
+}
+
+sau khi cấu hình sau thì Khởi động lại dịch vụ:
+
+sudo nginx -t 
+sudo systemctl relaod nginx 
+
+restart lại nginx bằng 2 lệnh 
+
+sudo systemctl restart httpd : restart lại apache
+
+
+
+
+
+
+
+
+
 
 
 
