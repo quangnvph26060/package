@@ -1,0 +1,160 @@
+composer dump-autoload: nếu trên serve không nhận các function ở app/helpers
+
+
+
+sudo nginx -t 
+sudo systemctl relaod nginx 
+restart lại nginx bằng 2 lệnh 
+
+sudo systemctl restart httpd : restart lại apache
+
+
+
+Lỗi CORS:
+serve apache 
+apache con be 
+<VirtualHost *:8080>
+    ServerAdmin admin@example.com
+	ServerName admin.localdriver.local
+	  ServerAlias www.admin.localdriver.local
+    DocumentRoot /usr/share/nginx/html/affiliate/ecommerce-affiliate-api/public
+
+    <Directory /usr/share/nginx/html/affiliate/ecommerce-affiliate-api/>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        allow from all
+        Require all granted
+    </Directory>
+
+
+
+    # Handle preflighted requests
+   <IfModule mod_headers.c>
+		# SetEnvIf Origin "http(s)?://(www\.)?(123\.31\.31\.39:8081)$" AccessControlAllowOrigin=$0
+		# Header set Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+		# Header set Access-Control-Allow-Methods "GET, POST, PATCH, PUT, DELETE, OPTIONS"
+	    # Header set Access-Control-Allow-Headers "Origin, Content-Type, X-Auth-Token"
+		# Header set Access-Control-Allow-Credentials "true"
+	</IfModule>
+	
+</VirtualHost>
+apache con fe 
+<VirtualHost *:8081>
+	ServerAdmin admin@example.com
+	 ServerName default.localdriver.local
+    DocumentRoot /usr/share/nginx/html/default/orfarm_clone/orfarm/dist
+
+     <Directory /usr/share/nginx/html/default/orfarm_clone/orfarm/dist>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+        Require all granted
+    </Directory>
+	
+	<IfModule mod_headers.c>
+    SetEnvIf Origin "http(s)?://(www\.)?(123\.31\.31\.39:8081)$" AccessControlAllowOrigin=$0
+    Header set Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin
+    Header set Access-Control-Allow-Methods "GET, POST, PATCH, PUT, DELETE, OPTIONS"
+    Header set Access-Control-Allow-Headers "Origin, Content-Type, X-Auth-Token"
+    Header set Access-Control-Allow-Credentials "true"
+</IfModule>
+
+	# FallbackResource
+    FallbackResource /index.html
+  #  ErrorLog ${APACHE_LOG_DIR}/default_error.log
+  #  CustomLog ${APACHE_LOG_DIR}/default_access.log combined
+</VirtualHost>
+
+
+
+
+
+
+Fe : vue 
+
+Be : laravel 
+
+BE thì ta  câu  hình config/cors.php 
+
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Laravel CORS Options
+    |--------------------------------------------------------------------------
+    |
+    | The allowed_methods and allowed_headers options are case-insensitive.
+    |
+    | You don't need to provide both allowed_origins and allowed_origins_patterns.
+    | If one of the strings passed matches, it is considered a valid origin.
+    |
+    | If ['*'] is provided to allowed_methods, allowed_origins or allowed_headers
+    | all methods / origins / headers are allowed.
+    |
+    */
+
+    'paths' => ['*'],
+
+    'allowed_methods' => ['*'],
+
+    'allowed_origins' => ['http://123.31.31.39:8081'], // url của bên fe
+
+    'allowed_origins_patterns' => [],
+
+    'allowed_headers' => ['*'],
+
+    'exposed_headers' => [],
+
+    'max_age' => 0,
+
+    'supports_credentials' => true,
+];
+sau đó cấu hình Cors.php trong middleware
+
+<?php
+
+namespace App\Http\Middleware;
+
+use Closure;
+use Illuminate\Http\Request;
+
+class Cors
+{
+    /**
+     * Handle an incoming request.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Closure(\Illuminate\Http\Request): (\Illuminate\Http\Response|\Illuminate\Http\RedirectResponse)  $next
+     * @return \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse
+     */
+    public function handle(Request $request, Closure $next)
+    {
+		$response = $next($request);
+
+        $response->headers->set('Access-Control-Allow-Origin', 'http://123.31.31.39:8081');
+        $response->headers->set('Access-Control-Allow-Methods', 'GET, POST, PATCH, PUT, DELETE, OPTIONS');
+        $response->headers->set('Access-Control-Allow-Headers', 'Origin, Content-Type, X-Auth-Token');
+        $response->headers->set('Access-Control-Allow-Credentials', 'true');
+
+        return $response;
+    }
+}
+
+sau đó vào  Kernel.php
+protected $middleware = [
+    ...
+    \App\Http\Middleware\Cors::class,
+]
+
+protected $routeMiddleware = [
+    ...
+    'cors' => \App\Http\Middleware\Cors::class,
+]
+
+Không cần thêm header  allowed_* gì vào bootstrap/app.php
+
+
