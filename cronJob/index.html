@@ -1,0 +1,32 @@
+/*
+tạo 1 cron job bằng lệnh 
+php artisan make:console DemoCron --command=demo:cron
+sau đó vào app/Console/Kernel.php. hàm schedule() thêm 
+$schedule->command('demo:cron')->daily(); // Chạy lệnh mỗi ngày một lần vào lúc 00:00 (giữa đêm).
+
+Below is a list of the additional schedule constraints:
+Method	Description
+->weekdays();	Limit the task to weekdays
+->sundays();	Limit the task to Sunday
+->mondays();	Limit the task to Monday
+->tuesdays();	Limit the task to Tuesday
+->wednesdays();	Limit the task to Wednesday
+->thursdays();	
+
+config trên serve thì đầu tiên vào 
+/etc/con.d/
+
+ chạy lệnh sudo nano /etc/cron.d/demo_cron_job
+
+ paste: * * * * * root cd /usr/share/nginx/html/affiliate/ecommerce-affiliate-api && php artisan schedule:run >>  /dev/null 2>&1
+
+ cd /usr/share/nginx/html/affiliate/ecommerce-affiliate-api: Chuyển vào thư mục của ứng dụng Laravel.
+
+ >> /dev/null 2>&1: Chuyển hướng đầu ra tiêu chuẩn (stdout) và đầu ra lỗi (stderr) vào /dev/null, có nghĩa là bỏ qua tất cả các thông báo đầu ra và lỗi của lệnh này.
+ (root) CMD: Lệnh được thực thi bởi người dùng root.
+
+Để đảm bảo cron job của bạn được thiết lập đúng cách và chạy đúng giờ, bạn có thể kiểm tra log hệ thống cron
+
+sau đó kiểm tra lệnh  grep CRON /var/log/syslog
+
+*/

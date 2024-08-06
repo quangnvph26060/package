@@ -31,3 +31,16 @@ import vào Provides/AppServiceProvider.php
 2.config nginx
 
 3.Khởi động lại dịch vụ
+
+
+7. cron job 
+Link tham khảo: https://viblo.asia/p/tim-hieu-tao-cron-job-trong-laravel-63vKjaYM52R
+
+
+
+
+
+
+
+
+
