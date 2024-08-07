@@ -36,7 +36,8 @@ import vào Provides/AppServiceProvider.php
 7. cron job 
 Link tham khảo: https://viblo.asia/p/tim-hieu-tao-cron-job-trong-laravel-63vKjaYM52R
 
-
+8. supervisord
+Link tham khảo: https://viblo.asia/p/cau-hinh-supervisor-de-chay-laravel-queue-tren-linux-RQqKLoGN57z
 
 
 
