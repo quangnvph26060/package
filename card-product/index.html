@@ -6,69 +6,71 @@
     <title>Document</title>
     <style>
         .main-card{
-	display: flex;
-	gap: 10px;
-	margin-bottom: 10px;
-}
-	
-.box-card{
-    width: calc(25% - 5px);
-    background: #fff;
-    border-radius: 5px;
-}
-@media (max-width:768px) {
-	.main-card{
-		flex-wrap: wrap;
-	}
-	.box-card {
-    width: calc(50% - 5px); /* For mobile: 2 items per row */
-  }
-}
-.card-title{
-	font-size: 15px;
-  line-height: normal;
-  font-weight: 700;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.card-text{
-	display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: normal;
-}
-.card-body{
-  text-align: start;
-  margin-left: 10px;
-  margin-right: 5px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-box-pack: start;
-  justify-content: flex-start;
-  display: flex;
-  flex-direction: column;
-}
-.card-date{
-	margin-bottom: 0px;
-	font-size: .875rem;
-    font-weight: 600;
-    line-height: 1.25rem;
-	color: var(--eds-primary-brand,var(--eds-primary-brand,#d1410c));
-}
-.box-card img{
-  width: 100%;
-  height: 120px;
-  object-fit: cover;
-  -o-object-position: center;
-  object-position: center;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .box-card{
+            cursor: pointer;
+            width: calc(25% - 5px);
+            background: #fff;
+            border-radius: 5px;
+        }
+        .box-card:hover {
+        box-shadow: -5px 0 5px -5px rgba(128, 128, 128, 0.5), 5px 0 5px -5px rgba(128, 128, 128, 0.5);
+        }
+        @media (max-width:768px) {
+            .main-card{
+                flex-wrap: wrap;
+            }
+            .box-card {
+            width: calc(50% - 5px); /* For mobile: 2 items per row */
+        }
+        }
+        .card-title{
+            font-size: 15px;
+        line-height: normal;
+        font-weight: 700;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        }
+        .card-text{
+            display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: normal;
+        }
+        .card-body{
+        text-align: start;
+        margin: 0 5px 10px 10px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        
+        }
+        .card-date{
+            margin-bottom: 0px;
+            font-size: .875rem;
+            font-weight: 600;
+            line-height: 1.25rem;
+            color: var(--eds-primary-brand,var(--eds-primary-brand,#d1410c));
+        }
+        .box-card img{
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center;
+        border-radius: 5px;
+        }
     </style>
 </head>
 <body>
