@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Cart</title>
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+    <div class="banner">
+        <div class="menu">
+
+            <div class="menu_navbar" style="margin-top: 10px;">
+                <label class="logo">
+                    <img src="../images/background-remover (1)/logo.png" alt="" width="48px">
+                    <strong>Go<span style="color: #D16B7D;">grin</span>.</strong>
+                </label>
+            </div>
+
+            <div class="menu_navbar cartmenu">
+                <div>
+                    <label for="checks" class="checkbtn1 iconcart">
+                        <a href="">
+                            <i class="fas fa-search "></i>
+                        </a>
+                        <div class="cart-icon">
+                            <a href="cart.html">
+                                <i class="fas fa-cart-plus sign-giohang"></i>
+                                <span class="item-count">3</span>
+                            </a>
+                        </div>
+                    </label>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <ul>
+
+                        <li>
+                            <a href="trangchu.html" class="active">
+                                Home
+                                <span class="arrow"><i class="fa fa-angle-down"></i></span>
+                            </a>
+                            <ul>
+
+                                <li><a href="#">Home 1</a></li>
+                                <li><a href="#">Home 2</a></li>
+                                <li><a href="#">Home 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li>
+                            <a href="listproduct.html">
+                                Shop
+                                <span class="arrow"><i class="fa fa-angle-down"></i></span>
+                            </a>
+                            <ul>
+                                <li><a href="#">Shop 1</a></li>
+                                <li><a href="#">Shop 2</a></li>
+                                <li><a href="#">Shop 3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Pages
+                                <span class="arrow"><i class="fa fa-angle-down"></i></span>
+                            </a>
+                            <ul>
+                                <li><a href="#">Page 1</a></li>
+                                <li><a href="#">Page 2</a></li>
+                                <li><a href="#">Page 3</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Blog
+                                <span class="arrow"><i class="fa fa-angle-down"></i></span>
+                            </a>
+                            <ul class="menu_phan_cap">
+                                <li><a href="#">Blog 1</a></li>
+                                <li><a href="#">Blog 2</a></li>
+                                <li><a href="#">Blog 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">Contact</a></li>
+                    </ul>
+                    <div class="menu_con">
+                        <li><a href="">Home > Cart</a></li>
+                    </div>
+                </div>
+
+            </div>
+            <div class="menu_navbar unmenu" style="margin-top: 20px;">
+                <div class="menu_navbar_right">
+                    <i class="fas fa-search sign-kinhlup"></i>
+                    <div class="cart-icon">
+                        <a href="cart.html">
+                            <i class="fas fa-cart-plus sign-giohang"></i>
+                            <span class="item-count">3</span></a>
+                    </div>
+                    <button class="sign-button">24/7 Help</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu_con show">
+            <hr>
+            <li><a href="">Home > Cart</a></li>
+        </div>
+    </div>
+    <center>
+        <div id="myAlert" class="alert alert-danger">
+            Bạn đã xóa thành công
+        </div>
+    </center>
+    <div class="table_cart" id="show--tablecart">
+        <table class="table">
+            <thead>
+                <tr>
+
+                    <th scope="col">Ảnh Sản Phẩm </th>
+                    <th scope="col">Tên Sản Phẩm</th>
+                    <th scope="col">Giá Tiền</th>
+                    <th scope="col">Số Lượng</th>
+                    <th scope="col">Thành Tiền</th>
+                    <th scope="col">Thao Tác</th>
+                </tr>
+            </thead>
+            <tbody class="tbody__table">
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="total--cart" id="show--totalcart">
+        <div id="btncart">
+            <div class="btncart--cart total">
+                <p class="totalproduct"> </p>
+                <p class="totalproductprice"></p>
+            </div>
+            <div class="btncart--cart">
+                <a href="order.html" id="don_mua" class="btn btn-danger" style="padding: 10px; margin-right: 10px;">Đơn
+                    Mua</a>
+                <button class="btn btn-primary" id="dat_hang">Đặt Hàng</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="iconcart1" id="gioHangRong">
+        <div class="icon--cart">
+            <i class='fas fa-shopping-basket'></i>
+        </div>
+        <div class="icon--cart">
+            <a href="trangchu.html" class="btn_backhome">
+                <p>TIẾP TỤC MUA HÀNG</p>
+            </a>
+        </div>
+    </div>
+    <!-- dialog -->
+    <div id="dialogOverlay" class="dialog-overlay" style="display: none;">
+        <div class="dialog-content">
+            <h2>Nhập thông tin</h2>
+            <form>
+                <div class="mb-3" id="inputform">
+                    <label for="exampleInputEmail1" class="form-label">HỌ VÀ TÊN</label>
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="text" class="form-control " id="lastname" placeholder="HỌ*">
+                            <div class="invalid-feedback" id="validatelastname">
+                                Vui lòng nhập lastname
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="form-control " id="firstname" placeholder="TÊN*">
+                            <div class="invalid-feedback" id="validatefirstname">
+                                Vui lòng nhập firstname
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3" id="inputform">
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="exampleInputEmail1" class="form-label ">SỐ ĐIỆN THOẠI</label>
+                            <input type="number" class="form-control" id="sdt" placeholder="SỐ ĐIỆN THOẠI*">
+                            <div class="invalid-feedback" id="validatesdt">
+                                Vui lòng nhập sdt
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <label for="exampleInputEmail1" class="form-label">EMAIL</label>
+                            <input type="email" class="form-control " id="email" placeholder="EMAIL*">
+                            <div class="invalid-feedback" id="validateemail">
+                                Vui lòng nhập email
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Nhập địa chỉ</h2>
+                <div class="mb-3" id="inputform">
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="exampleInputEmail1" class="form-label">ĐỊA CHỈ </label>
+                            <input type="text" class="form-control  " id="diachi" placeholder="ĐỊA CHỈ*">
+                            <div class="invalid-feedback" id="validatediachi">
+                                Vui lòng nhập địa chỉ
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <label for="exampleInputEmail1" class="form-label"> </label>
+                            <select class="form-select" id="show_tinh">
+                            </select>
+                            <div class="invalid-feedback" id="validatetinh">Chọn Tỉnh !!!</div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mb-3" id="inputform">
+                    <div class="row">
+                        <div class="col-6">
+                            <select class="form-select" id="show_huyen">
+                                <option value="" selected>Chọn một huyện</option>
+                            </select>
+                            <div class="invalid-feedback" id="validatehuyen">Chọn Huyện !!!</div>
+                        </div>
+                        <div class="col-6">
+                            <select class="form-select" id="show_xa">
+                                <option value="" selected>Chọn một xã</option>
+                            </select>
+                            <div class="invalid-feedback" id="validatexa">Chọn Xã !!!</div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <button class="btn btn-primary" id="btnform">Đặt Hàng</button>
+                <button type="reset" class="btn btn-danger">Xóa Thông Tin</button>
+                <button class="btn btn-danger" id="close--dialog">Thoát</button>
+            </form>
+        </div>
+
+    </div>
+    <footer>
+        <div class="slider_product">
+            <div class="slider_products">
+                <div class="slides_prodcuts">
+                    <div class="product_ft">
+                        <div class="ft_img">
+                            <img src="../images/background-remover (1)/logo.png" alt="" width="70px" height="70px">
+                            <span>
+                                <strong>Go<strong style="color: #D16B7D;">grin</strong>.</strong>
+                            </span>
+
+                        </div>
+                        <div class="ft-text">
+                            <p>War should never be entered upon
+                                until every agency of peace has
+                                failed not to be good. War should
+                                never be entered upon
+                                until every agency of peace has
+                                failed not to be good</p>
+                        </div>
+                    </div>
+                    <div class="product_ft">
+                        <h4>Emergency Link</h4>
+                        <p>Our shop store</p>
+                        <p>Our Term & Condition</p>
+                        <p>Faq Section</p>
+                        <p>Trending Product</p>
+                        <p>Our shop store</p>
+                    </div>
+                    <div class="product_ft">
+                        <h4>Emergency Link</h4>
+                        <p>Our shop store</p>
+                        <p>Our Term & Condition</p>
+                        <p>Faq Section</p>
+                        <p>Trending Product</p>
+                        <p>Our shop store</p>
+                    </div>
+                    <div class="product_ft">
+                        <h4>Social Feed</h4>
+                        <p>War should never be entered upon
+                            until every agency of peace has
+                            failed not to be good.</p>
+                        <div class="icon-container">
+                            <div class="icon-square">
+                                <i class="fab fa-facebook"></i>
+                            </div>
+                            <div class="icon-square">
+                                <i class="fab fa-twitter"></i>
+                            </div>
+                            <div class="icon-square">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="icon-square">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="ft_down">
+            <div class="ft_down_d">
+                <div class="content_fl" style="float: left;">
+                    <p>Copyright @ gogrin all rights reserved</p>
+                </div>
+            </div>
+            <div class="ft_down_d">
+                <div class="content_fl" style="float: right;">
+                    <p>Service</p>
+                    <p>Pricing</p>
+                    <p>Contact</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="toast"> </div>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            const menuItems = document.querySelectorAll('ul li');
+
+            menuItems.forEach((menuItem) => {
+                menuItem.addEventListener('mouseover', () => {
+                    const subMenu = menuItem.querySelector('ul');
+                    if (subMenu) {
+                        subMenu.style.display = 'block';
+                    }
+                });
+                menuItem.addEventListener('mouseout', () => {
+                    const subMenu = menuItem.querySelector('ul');
+                    if (subMenu) {
+                        subMenu.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="./utils/services.js"></script>
+    <script src="./utils/db.js"></script>
+    <script src="./utils/library.js"></script>
+    <script src="./utils/controller.js"></script>
+</body>
+
+</html>

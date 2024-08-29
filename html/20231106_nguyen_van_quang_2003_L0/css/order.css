@@ -1,0 +1,249 @@
+div ul li a,
+.menu_con li a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 0px !important;
+}
+
+tbody,
+tr {
+    text-align: center;
+}
+
+.table_order table {
+    width: 70%;
+}
+
+.menu_navbar div {
+    margin-top: 5px;
+}
+
+.checkbtn1 a {
+
+    text-decoration: none;
+}
+
+.table_order {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 825px) {
+    .checkbtn {
+        margin-top: 16px;
+        margin-left: 10px;
+        display: block;
+        float: left;
+    }
+}
+
+
+
+.item-count {
+    position: absolute;
+    top: 0%;
+    right: 1%;
+    background-color: #D16B7D;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 4px;
+    font-size: 10px;
+}
+
+.sign-giohang {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.order_back {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.order_back div {
+    width: 70%;
+}
+
+.order_back div a {
+    float: right;
+    margin-right: 60px;
+}
+
+@media(max-width:900px) {
+    .order_back div a {
+        float: right;
+        margin-right: 0px;
+    }
+}
+
+/* info */
+.cart__client {
+   
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+    flex-wrap: wrap;
+}
+
+.cart_info {
+    
+    height: auto;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-content: center; */
+}
+
+.cart__info_client {
+    width: 60%;
+    height: auto;
+    line-height: 30px;
+}
+
+.cart__products {
+    width: 40%;
+
+}
+
+.cart__info_detail {
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address_info {
+    float: right;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.product_order {
+    width: 100%;
+    height: 270px;
+    overflow: auto;
+}
+
+@media(max-width:925px) {
+    .cart__info_detail {
+        width: 100%;
+    }
+
+    .cart_info {
+        width: 100%;
+    }
+
+    .cart__info_client {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .cart__products {
+        width: 100%;
+    }
+
+    .price__oder p {
+        padding: 10px;
+    }
+
+    .product_order {
+        width: 100%;
+        height: 270px;
+        overflow: auto;
+        padding: 10px;
+    }
+}
+
+.productdetail__order p {
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.productdetail {
+    width: 100%;
+    height: 80px;
+    line-height: 50px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: safe;
+}
+
+.btn__order {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__order div i {
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+#table_info {
+    width: 100%;
+    display: none;
+}
+
+/* dialog */
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.dialog-content {
+    background-color: #fff;
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dialog-content h2 {
+    text-align: center;
+}
+
+.dialog-content form {
+    padding: 10px;
+}
+
+.item-count {
+    background: #D16B7D;
+}
+
+/* bổ sung thêm css */
+.product_ft h4 {
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.logo strong,
+.ft_img strong {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}

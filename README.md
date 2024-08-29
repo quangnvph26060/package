@@ -41,7 +41,8 @@ Link tham khảo: https://viblo.asia/p/cau-hinh-supervisor-de-chay-laravel-queue
 
 
 
-
+9. html/website-fruitables 
+giao diện trang chủ  html 
 
 
 
