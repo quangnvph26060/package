@@ -1,0 +1,23 @@
+public function roomTypeDetails($slug)
+    {
+        $roomType = RoomType::with('amenities', 'facilities', 'images')->where('slug', $slug)->first();
+        abort_if(!$roomType, 404);
+        $pageTitle = $roomType->name;
+
+        return view('Template::room.details', compact('pageTitle', 'roomType'));
+    }
+
+    abort_if(!$roomType, 404); nếu false thì báo lỗi 404 vào nó sẽ hiển thị resources/views/errors trong 404.blade.php
+
+  
+    
+function verificationCode($length) {
+    if ($length == 0) {
+        return 0;
+    }
+
+    $min = pow(10, $length - 1);
+    $max = (int) ($min - 1) . '9';
+    return random_int($min, $max);
+}
+dùng nó chỉ cần gọi từ helpers ra verificationCode(number)

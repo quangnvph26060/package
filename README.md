@@ -45,4 +45,6 @@ Link tham khảo: https://viblo.asia/p/cau-hinh-supervisor-de-chay-laravel-queue
 giao diện trang chủ  html 
 
 
+10. product
+các function  in controller
 
