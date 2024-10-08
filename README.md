@@ -48,3 +48,10 @@ giao diện trang chủ  html
 10. product
 các function  in controller
 
+
+
+
+11. helpers/ 03 hàm update ảnh, nhiều ảnh vào storage 
+
+
+12. helpers/ 04 Hàm getRealIP() trong Laravel được thiết kế để trả về địa chỉ IP thực sự của người dùng truy cập trang web
