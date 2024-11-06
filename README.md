@@ -55,3 +55,5 @@ các function  in controller
 
 
 12. helpers/ 04 Hàm getRealIP() trong Laravel được thiết kế để trả về địa chỉ IP thực sự của người dùng truy cập trang web
+
+13. write_cccd đọc nội dung  của căn cước công dân
