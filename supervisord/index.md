@@ -41,3 +41,11 @@ Supervisor sử dụng file cấu hình chính nằm ở /etc/supervisord.conf. 
 files = /etc/supervisord.d/*.ini
 
 Dòng này cho phép Supervisor tự động đọc tất cả các file .ini từ thư mục /etc/supervisord.d/.
+
+# Lệnh kiểm tra trạng thái 
+sudo supervisorctl status
+# Lệnh dừng  1 queue đang hoạt động trên serve centos 
+sudo supervisorctl stop queue-worker:queue-worker_00
+# Sau khi dừng, bạn có thể khởi động lại bằng lệnh:
+sudo supervisorctl start queue-worker
+
